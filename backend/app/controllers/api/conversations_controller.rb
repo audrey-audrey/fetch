@@ -1,7 +1,7 @@
 class Api::ConversationsController < ApplicationController
 
-  def show
-    conversations = Conversation.where(initiator: params["user_id"])
+  def index
+    conversations = Conversation.where("initiator = ? OR recipient = ?", params["user_id"], params["user_id"])
     render json: conversations
   end
 
