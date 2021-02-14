@@ -5,6 +5,7 @@ Rails.application.routes.draw do
       resources :favourites
       resources :conversations do
         resources :messages
+      end
     end
     resources :login, only: [:create]
     resources :register
