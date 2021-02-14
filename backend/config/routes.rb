@@ -3,8 +3,8 @@ Rails.application.routes.draw do
   namespace :api do
     resources :users do
       resources :favourites
-      resources :conversations do
-        resources :messages
+      resources :conversations, only: [:index, :create] do
+        resources :messages, only: [:index, create]
       end
     end
     resources :login, only: [:create]
