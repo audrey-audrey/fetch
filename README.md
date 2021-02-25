@@ -10,7 +10,7 @@ A location-based friend finding app  to connect dog owners for playdates.
 
 3. Create `config/database.yml` by copying `config/database.example.yml`
 
-4. 4. Run `bin/rake db:reset` to create, load and seed db
+4. Run `bin/rake db:reset` to create, load and seed db
 
 5. Create .env file based on .env.example
 
