@@ -1,6 +1,6 @@
 # Fetch.
 
-A location-based friend finding app  to connect dog owners for playdates.
+A location-based friend finding app to connect dog owners for playdates.
 
 ## Setup
 
@@ -20,11 +20,16 @@ A location-based friend finding app  to connect dog owners for playdates.
 
 2. Run `npm start` to start the client server
 
-
 ## Dependencies
 
-* Rails 6.1.2.1
-* PostgreSQL 9.x
+- Rails 6.1.2.1
+- PostgreSQL 9.x
 
 ## Screenshots
 
+!["Screenshot of Landing Page"](https://github.com/audrey-audrey/fetch/blob/main/docs/LandingPage.png?raw=true)
+!["Screenshot of Map Homepage"](https://github.com/audrey-audrey/fetch/blob/main/docs/Map.png?raw=true)
+!["Screenshot of Profile Page"](https://github.com/audrey-audrey/fetch/blob/main/docs/Profile.png?raw=true)
+!["Screenshot of Favourites Page"](https://github.com/audrey-audrey/fetch/blob/main/docs/Favourites.png?raw=true)
+!["Screenshot of Conversations Page"](https://github.com/audrey-audrey/fetch/blob/main/docs/Conversations.png?raw=true)
+!["Screenshot of Messages Page"](https://github.com/audrey-audrey/fetch/blob/main/docs/Messages.png?raw=true)
